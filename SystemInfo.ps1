@@ -1,4 +1,4 @@
-Write-Output "n=== Firewall Status ==="
+Write-Output "n=== Firewall Status =="
 Get-NetFirewallProfile | Select-Object Name, Enabled
 
 # Current CPU/RAM/Disk Usage
